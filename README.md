@@ -1,5 +1,3 @@
-# Age_Calculator
-=======
 ## This project is called Age Calculator
 &nbsp;
 
