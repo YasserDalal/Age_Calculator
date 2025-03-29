@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../Roboto/static/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Itim';
+  src: url('../Itim/Itim-Regular.ttf')
+}
+
+@import '~js-datepicker/dist/datepicker.min.css';
+
+body {
+  font-family: Roboto;
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+.main-container h1 {
+  font-family: Itim;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-container div {
+  font-weight: 600;
+  margin: 0px 0px 7px 0px;
+}
+
+
+.main-date-container{
+  background-color: transparent;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px 0px 10px;
+}
+
+.main-date-container div {
+  margin-bottom: 0px;
+}
+
+.main-date-container i {
+  justify-self: end;
+  cursor: pointer;
+}
+
+.calculate-button {
+  background-color: rgb(81, 81, 81);
+  color: rgb(237, 237, 237);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.result {
+  text-align: center;
+}
+
+.result b {
+  font-family: 'Itim';
+  font-size: 17px;
+}
+
+.calculate-button:hover {
+  background-color: rgb(59, 59, 59);
+}
